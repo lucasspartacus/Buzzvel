@@ -1,7 +1,13 @@
 
 Creating a microsite for showcasing my experience and interest in working at Buzzvel involves several steps.
 
-First clone the project repository
+Technology Stack:
+
+Frontend Framework: Next.js and React.js
+Styling: CSS Modules, GSAP for animations
+Hosting Platforms: Vercel (for optimized Next.js deployment)
+
+First clone the project repository:
 
 git clone https://github.com/lucasspratcus/Buzzvel
 
