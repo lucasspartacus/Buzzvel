@@ -34,7 +34,7 @@ const CareerTimeline = () => {
           <h3>Developer for the company It-eam</h3>
           <ul>
             <li>2022-2023</li>
-            <li>Back-end development integrating the company's system with functions in Python and JavaScript
+            <li>Back-end development integrating the company&apos system with functions in Python and JavaScript
             with a relational database.</li>
             <li>Assisted in the creation and maintenance of databases</li>
           </ul>
