@@ -1,0 +1,17 @@
+.about {
+    padding: 4rem 2rem;
+  }
+  .whyBuzzvel {
+    margin-top: 2rem;
+  }
+  .timeline ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .timeline li {
+    padding: 0.5rem 0;
+  }
+.timeline{
+  border-radius: 8px;
+}
+  

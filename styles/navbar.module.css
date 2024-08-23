@@ -1,0 +1,132 @@
+/* Navbar container */
+.navbar {
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  color: white;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.5rem;
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Navigation menu container */
+  .navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #000;
+  }
+
+  .navbar .navList {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+    color: white;
+  }
+
+
+  .navbar .menuicon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  .navbar .menuicon .navicon{
+    background: #fff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: all .2s ease-out;
+    width: 18px;
+  }
+
+ .navbar .menuicon .navicon:before,
+ .navbar .menuicon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.navbar .menuicon .navicon:before {
+  top: 5px;
+}
+
+.navbar .menuicon .navicon:after {
+  top: -5px;
+}
+
+.navbar .menubtn {
+  display: none;
+}
+
+.navbar .menubtn:checked ~ .navList {
+  max-height: 240px;
+}
+
+.navbar .menubtn:checked ~ .menuicon .navicon {
+  background: transparent;
+}
+
+.navbar .menubtn:checked ~ .menuicon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.navbar .menubtn:checked ~ .menuicon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.navbar .menubtn:checked ~ .menuicon:not(.steps) .navicon:before,
+.navbar .menubtn:checked ~ .menuicon:not(.steps) .navicon:after {
+  top: 0;
+}
+  
+
+  /* Navigation menu items */
+  .navList .linavnar {
+    margin-left: 1rem;
+  }
+  
+  /* Navigation links */
+  .navList li a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  .navList li a {
+    color: #fff;
+  }
+
+  /* Mobile responsive styles */
+  @media (min-width: 48em) {
+    .navbar li {
+      float: left;
+    }
+    .navbar li a {
+      padding: 20px 30px;
+    }
+    .navbar .navList {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .navbar .menuicon {
+      display: none;
+    }
+  }  

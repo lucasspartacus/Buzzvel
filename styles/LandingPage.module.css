@@ -1,0 +1,73 @@
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 100px;
+  background: url('../public/images/background-desk-companies.png') no-repeat center;
+}
+
+.introduction {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.introduction h1,
+.introduction h2,
+.introduction p {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+
+}
+.heroSection .heroText h1{
+  color: #fff;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.heroText {
+  flex: 1;
+  text-align: left;
+}
+.introduction span{
+ 
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to left,  white 50%, #F9183D 50%);
+  background-size: 200% 100%;
+  background-position: right top;
+  margin-left:10px;
+  transition:all 1s ease;
+}
+
+.introduction span:hover{
+  background-position:left top;
+}
+.heroText h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.heroImage {
+  flex: 1;
+
+}
+
+.heroImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 512px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,80 @@
+.timeline {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.timeline h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timelineItem {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.timelineItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.aboutmeContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.aboutmeItem {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 50%;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.aboutmeItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.timelineItem h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.timelineItem ul {
+  list-style-type: disc;
+  margin: 1rem 0 0;
+  padding-left: 1.5rem;
+}
+
+.timelineItem ul li {
+  margin: 0.5rem 0;
+}
+
+.year {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .timelineContainer {
+    flex-direction: column;
+  }
+}
