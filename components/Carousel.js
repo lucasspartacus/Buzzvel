@@ -33,7 +33,7 @@ const ProjectsSlideshow = ({ images }) => {
         <div>
           <img src="/project2.jpg" alt="Project 2" />
           <h3>Hotspotty</h3>
-          <p>An innovative "All-in-One" platform to plan, manage and optimize decentralized networks such as the global Helium network for the Internet of Things.</p>
+          <p>An innovative &quot;All-in-One&quot; platform to plan, manage and optimize decentralized networks such as the global Helium network for the Internet of Things.</p>
         </div>
         <div>
           <img src="./public/images/hero-bg.png" alt="Project 1" />
