@@ -16,7 +16,7 @@ const LandingPage = () => {
   return (
     <div className={styles.landingPage}>
       <section className={styles.introduction}>
-        <h1 className="intro">Hello, I&aposm <span className='hoveraboutme'> Lucas Spartacus</span> </h1> 
+        <h1 className="intro">Hello, I&apos;m <span className='hoveraboutme'> Lucas Spartacus</span> </h1> 
         <h2 className="intro">Full Stack Developer</h2>
         <p className="intro">Welcome to my microsite!</p>
       </section>
