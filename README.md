@@ -18,3 +18,6 @@ Then run the project:
 npm run dev
 
 With this, the project is ready, comprising all the necessary requirements. It is composed of the components Navbar, LandingPage, AboutMe, ProjectsSlideshow and footer.
+
+The Live project can be found at:
+https://buzzvel-zeta.vercel.app/
