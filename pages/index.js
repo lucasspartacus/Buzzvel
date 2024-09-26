@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe';
 import ProjectsSlideshow from '../components/ProjectsSlideshow';
 import Footer from '@/components/Footer';
 import LandingPage from '@/components/LandingPage';
+import Contact from '@/components/Contac';
 import Head from 'next/head';
 
 const Home = () => {
@@ -12,8 +13,11 @@ const Home = () => {
       <Navbar />
       <LandingPage/>
       <AboutMe />
+      <Contact/>
       <ProjectsSlideshow />
+      
       <Footer/>
+
     </div>
   );
 };

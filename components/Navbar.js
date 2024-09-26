@@ -13,7 +13,9 @@ const Navbar = () => {
       <ul className={`${styles.navList} ${isOpen ? styles.open : ''}`}>
         <li className={styles.linavnar}><Link href="#about">About Me</Link></li>
         <li className={styles.linavnar}><Link href="#projects">Buzzvel Projects</Link></li>
-        <li className={styles.linavnar}><Link href="#contact">Contact</Link></li>
+        <li className={styles.linavnar}><Link href="#contactme">Contact</Link></li>
+        <li className={styles.linavnar}><Link href="#contact">Projects</Link></li>
+
       </ul>
     </nav>
   );
