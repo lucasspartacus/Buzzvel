@@ -7,6 +7,62 @@
   background: url('../public/images/background-desk-companies.png') no-repeat center;
 }
 
+.datePicker {
+  width: 100%; /* Adjust width as needed */
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 20px; /* Spacing below the date picker */
+}
+
+/* Styles for the selected date */
+.react-datepicker__day--selected {
+  background-color: #F9183D !important; /* Use !important to override other styles */
+  color: white !important; /* Text color for better contrast */
+}
+
+/* Optional: Styles for hover on selected date */
+.react-datepicker__day--selected:hover {
+  background-color: #C71230 !important; /* Darker shade for hover effect */
+}
+
+.email {
+  width: 84%;
+  padding: 10px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 20px; /* Spacing below the date picker */
+
+}
+
+.Contact {
+  padding: 2rem;
+  width: 10%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  overflow: hidden; /* Hide overflow during animations */
+  height: 30vh; /* Full viewport height */
+  margin: 0 auto; /* Center horizontally */
+}
+
+
+.button{
+  text-align: center;
+  height: 2rem;
+  width: 80%;
+  color: #fff;
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 16px; /* Adjust font size */
+  margin-left: 15px; /* Spacing below the date picker */
+  background-color: #F9183D;
+}
+
 .introduction {
   text-align: center;
   margin-bottom: 2rem;
